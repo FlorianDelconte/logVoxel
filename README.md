@@ -12,3 +12,4 @@ make
 ```
 ./voxelizer -c 0.01
 ```
+-c : voxels size in meter
