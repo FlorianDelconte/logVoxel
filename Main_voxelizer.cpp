@@ -174,11 +174,11 @@ fillInterior(const BinaryImage& logVox){
 int
 main(int argc,char **argv){
   //nom du fichier input (.xyz)
-  std::string inputFileName="../../dataPCL/part_1.xyz";
+  std::string inputFileName="../dataPCL/part_1.xyz";
   //nom du fichier output(.vol)
   std::string outputFileName="test";
   //taille des cellules de la discretisation en metre
-  double cellsSize=0.01;
+  double cellsSize=0.01;//en mètre
   //rayon de fermeture
   double rayon=2.;
   //bollean to char
